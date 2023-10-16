@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed black;
+    border: 1px dashed green;
 }
 
 header{
@@ -87,15 +87,18 @@ nav{
     background-size: cover;
 } */
 
+
+/* MAIN */
+
 main{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .main-content{
     width: 60%;
+    flex-direction: column;
     display: flex;
     justify-content: center;
 }
@@ -113,7 +116,7 @@ main{
     width: 100%;
 }
 
-.container-card{
+.container-store-card{
     width: 100%;
     padding-top: 1rem;
     display: flex;
@@ -121,7 +124,7 @@ main{
     flex-wrap: wrap;
 }
 
-.card{
+.store-card{
     width: calc(( 100% / 3 ) - 10px);
     height: 600px;
 }
@@ -139,9 +142,121 @@ main{
 .container-body-main-content{
     width: 100%;
     display: flex;
-
+    justify-content: space-between;
 }
 
 .container-body-main-img{
+    width: 60%;
+    height: 300px;
+    margin-top: 2rem;
+}
 
+.text-body{
+    width: 35%;
+    height: 200px;
+    margin-top: 3rem;
+}
+
+.row-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instruments-card{
+    width: calc(( 100% / 3) - 10px);
+    height: 300px;
+}
+
+.text-br{
+    width: 40%;
+    font-size: bold;
+}
+
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-footer{
+    width: 100%;
+}
+
+.sponsor-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.square-sponsor-container{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square-sponsor{
+    width: 50%;
+    height: 200px;
+}
+
+.main-footer{
+    width: 100%;
+    background-color: #b4d0e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-main-footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-main-text{
+    width: 60%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-prova-gratuita{
+    width: 35%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frequent-questions-container{
+    width: 60%;
+    height: 200px;
+}
+
+.footer-footer{
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer-footer{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer-column{
+    width: calc( 100% / 5 );
+    height: 300px;
+    text-align: left;
 }
