@@ -156,6 +156,12 @@ h2{
     display: flex;
     justify-content: flex-start;
     width: 100%;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.marg-left{
+    margin-left: 40px;
 }
 
 .container-store-card{
@@ -167,8 +173,32 @@ h2{
 }
 
 .store-card{
-    width: calc(( 100% / 3 ) - 10px);
+    width: calc(( 100% / 3 ) - 20px);
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-store-card{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-store-card{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.marg-bottom-store-card{
+    margin-bottom: .7rem;
+}
+
+.lightgray{
+    color: lightgray;
 }
 
 .container-hor-card{
