@@ -178,6 +178,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid lightgray;
 }
 
 .header-store-card{
@@ -186,6 +187,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid lightgray;
 }
 
 .body-store-card{
@@ -245,33 +247,126 @@ a{
     height: 150px;
 }
 
+.container-content-hor-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content-hor-card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-btn-hor-card{
+    width: 30%;
+    padding-top: .2rem;
+}
+
+.btn-contatta-assistenza{
+        width: 100%;
+        color: white;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.padd-top-05{
+    padding-top: .5rem;
+}
+
+.container-text-hor-card{
+    width: 70%;
+    padding-top: 1rem;
+}
+
 .container-body-main-content{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-top: 3rem;
 }
 
 .container-body-main-img{
-    width: 60%;
-    height: 300px;
+    width: 63%;
+    height: 450px;
     margin-top: 2rem;
+}
+
+.img-partner{
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
 }
 
 .text-body{
     width: 35%;
     height: 200px;
-    margin-top: 3rem;
+    margin-top: 5.5rem;
+}
+
+.title-partner-text{
+    font-size: 22px;
+    margin-bottom: .5rem;
+}
+
+.body-partner-text{
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+
+.btn-trova-partner{
+    width: 33%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.margin-top-h2{
+    margin-top: 7rem;
+}
+
+.h2-più-operazioni{
+    font-size: 40px;
 }
 
 .row-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 3rem;
 }
 
 .instruments-card{
     width: calc(( 100% / 3) - 10px);
-    height: 300px;
+    height: 400px;
+}
+
+.container-img-instruments-card{
+    width: 100%;
+    height: 235px;
+}
+
+.img-instruments-card{
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+}
+
+.font-instruments-card-title{
+    font-size: 21px;
+}
+
+.padd-top-instruments-card{
+    padding-top: 1.5rem;
 }
 
 .text-br{
