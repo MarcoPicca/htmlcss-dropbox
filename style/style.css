@@ -191,14 +191,48 @@ h2{
 .body-store-card{
     width: 80%;
     margin-top: 20px;
+    margin-bottom: 2rem;
 }
 
 .marg-bottom-store-card{
     margin-bottom: .7rem;
 }
 
+.marg-bottom-mese{
+    margin-bottom: 2rem;
+}
+
 .lightgray{
     color: lightgray;
+}
+
+.button-prova-gratis{
+    width: 100%;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    margin-left: .5rem;
+}
+
+.hr-card{
+    margin-top: 1.5rem;
+    width: 20%;
+    background-color: lightgray;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.marg-top-store-card{
+    margin-top: 2rem;
 }
 
 .container-hor-card{
