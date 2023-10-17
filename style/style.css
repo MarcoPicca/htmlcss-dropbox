@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed green;
 }
 
 header{
@@ -627,9 +626,37 @@ footer{
     justify-content: center;
 }
 
+.container-question{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
 .frequent-questions-container{
     width: 60%;
-    height: 200px;
+    height: 400px;
+    text-align: left;
+}
+
+.font-frequent-questions{
+    font-size: 32px;
+}
+
+.hr-marg{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hr-marg-inline{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.dropdown-marg{
+    margin-left: 20rem;
 }
 
 .footer-footer{
