@@ -97,7 +97,7 @@ h1{
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    font-size: 17px;
+    font-size: 13px;
     height: 340px;
     margin-top: 20px;
 }
@@ -239,18 +239,20 @@ a{
 
 .container-hor-card{
     width: 100%;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 .horizontal-card{
     width: 100%;
-    height: 150px;
+    height: 170px;
+    border: 1px solid lightgray;
 }
 
 .container-content-hor-card{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-top: 1rem;
 }
 
 .content-hor-card{
@@ -671,11 +673,19 @@ footer{
     width: 70%;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 6rem;
 }
 
 .footer-column{
-    width: calc( 100% / 5 );
+    width: calc(( 100% / 5 ) - 10px );
     height: 300px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.padd-bott{
+    margin-bottom: 2rem;
 }
