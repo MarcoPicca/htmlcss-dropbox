@@ -443,6 +443,7 @@ footer{
     object-position: center;
     width: 42%;
     height: 32px;
+    filter: invert(100%);
 }
 
 .square-arizona{
@@ -459,6 +460,7 @@ footer{
     object-position: center;
     width: 50%;
     height: 100px;
+    filter: invert(100%);
 }
 
 .square-florida{
@@ -475,6 +477,7 @@ footer{
     object-position: center;
     width: 50%;
     height: 35px;
+    filter: invert(100%);
 }
 
 .square-topps{
@@ -491,6 +494,7 @@ footer{
     object-position: center;
     width: 55%;
     height: 50px;
+    filter: invert(100%);
 }
 
 .container-big-square{
@@ -536,6 +540,7 @@ footer{
     object-position: center;
     width: 55%;
     height: 50px;
+    filter: invert(100%);
 }
 
 .square-hearst{
@@ -552,6 +557,7 @@ footer{
     object-position: center;
     width: 55%;
     height: 50px;
+    filter: invert(100%);
 }
 
 .square-planet{
@@ -568,6 +574,7 @@ footer{
     object-position: center;
     width: 55%;
     height: 50px;
+    filter: invert(100%);
 }
 
 .square-clear-channel{
@@ -584,6 +591,7 @@ footer{
     object-position: center;
     width: 55%;
     height: 50px;
+    filter: invert(100%);
 }
 
 .main-footer{
