@@ -21,7 +21,7 @@ nav{
     align-items: center;
     justify-content: flex-start;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 16px;
     font-family: sans-serif;
     font-weight: 300;
 }
@@ -106,7 +106,7 @@ h1{
 }
 
 .button{
-    width: 40%;
+    width: 54%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,7 +207,7 @@ h2{
     justify-content: flex-start;
     width: 100%;
     margin-top: 30px;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .marg-left{
@@ -263,7 +263,7 @@ h2{
     margin-bottom: .4rem;
     font-family: sans-serif;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 16px;
     margin-left: .5rem;
 }
 
@@ -346,7 +346,7 @@ h6{
 
 .h6-hor-card{
     padding-left: 0;
-    font-size: 11px;
+    font-size: 16px;
     font-family: sans-serif;
     font-weight: 300;
 }
@@ -406,7 +406,7 @@ h6{
 }
 
 .body-partner-text{
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 300;
     font-family: sans-serif;
     margin-bottom: 1rem;
@@ -765,6 +765,12 @@ footer{
     font-size: 32px;
 }
 
+.question-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .hr-marg{
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -795,13 +801,17 @@ footer{
 }
 
 .footer-column{
-    width: calc(( 100% / 5 ) - 10px );
+    width: calc(( 100% / 5 ) - 20px );
     height: 200px;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     font-size: small;
+}
+
+.footer-column:hover{
+    border-bottom: 1px solid white;
 }
 
 .padd-bott{
