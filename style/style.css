@@ -106,6 +106,15 @@ h1{
     margin-top: 20px;
 }
 
+.align-center{
+    display: flex;
+    align-items: flex-start;
+}
+
+.marg-bott-icon{
+    margin-bottom: .7rem;
+}
+
 .padd-top{
     padding-top: 1rem;
 }
@@ -418,10 +427,14 @@ h6{
     height: 50%;
 }
 
+.square-sponsor:hover{
+    border: 10px solid #d1e9cd;
+    transition: .1s linear;
+}
+
 .square-designit{
     width: 100%;
     height: 100%;
-    border: 10px solid #d1e9cd;
     background-color: #a2d39b;
     display: flex;
     justify-content: center;
