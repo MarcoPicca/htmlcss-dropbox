@@ -20,6 +20,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    font-weight: 100;
+    font-size: 15px;
 }
 
 .container-nav{
@@ -32,6 +34,8 @@ nav{
 
 .logo-small{
     font-size: 10px;
+    height: 15px;
+    padding-top: .1rem;
 }
 
 .div-accedi{
@@ -39,6 +43,27 @@ nav{
     height: 60px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.button-inizia{
+    width: 15%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.h5-inizia{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-jumbo{
