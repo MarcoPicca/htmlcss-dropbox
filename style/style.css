@@ -185,7 +185,7 @@ main{
 }
 
 .main-content{
-    width: 60%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -223,7 +223,7 @@ h2{
 }
 
 .store-card{
-    width: calc(( 100% / 3 ) - 30px);
+    width: calc(( 100% / 3 ) - 20px);
     height: 900px;
     display: flex;
     flex-direction: column;
@@ -397,6 +397,7 @@ h6{
     width: 35%;
     height: 200px;
     margin-top: 5.5rem;
+    margin-left: 2rem;
 }
 
 .title-partner-text{
@@ -406,6 +407,8 @@ h6{
 
 .body-partner-text{
     font-size: 13px;
+    font-weight: 300;
+    font-family: sans-serif;
     margin-bottom: 1rem;
 }
 
@@ -416,6 +419,13 @@ h6{
     justify-content: center;
     align-items: center;
     background-color: white;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.font-trova-partner{
+    font-weight: 300;
+    font-family: sans-serif;
 }
 
 .border{
